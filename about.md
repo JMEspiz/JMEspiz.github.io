@@ -24,4 +24,4 @@ Goals for this Year (2016):
 
 ### Contact me
 
-[josemespiz@gmail.com(mailto:josemespiz@gmail.com)
+[josemespiz@gmail.com](mailto:josemespiz@gmail.com)
