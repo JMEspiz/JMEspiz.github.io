@@ -52,25 +52,24 @@ $ cd ~  # para saltar al Home de nuestro usuario
 $ nano .bashrc # en mi caso uso Fedora, pero en la mini tengo LinuxMint así que usaria .profile
 ```
   
-  nuestro editor nano abrira nuestro archivo y justoa el final agregamos la siguiente linea:
+nuestro editor nano abrira nuestro archivo y justoa el final agregamos la siguiente linea:
   
 ``` sh
 export PATH=$PATH:/usr/local/go/bin
 ```
   
-  Guardamos con las teclas "Control + O" y salimos con "Control + X", para aplicar estos cambios sin tener que salir de la terminal
-  ejecutamos
+Guardamos con las teclas "Control + O" y salimos con "Control + X", para aplicar estos cambios sin tener que salir de la terminal ejecutamos
   
 ``` sh
 source .bashrc
 ```
   
-  y ya tendriamos go accesible en nuestra termina desde cualqueir directorio con el comando
+y ya tendriamos go accesible en nuestra termina desde cualqueir directorio con el comando
   
 ``` sh
 $ go
 ```
   
-  ![cowboy-color](/images/cowboy-color.png "cowboy-color")
+![cowboy-color](/images/cowboy-color.png "cowboy-color")
 
 
