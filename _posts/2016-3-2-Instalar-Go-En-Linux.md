@@ -34,43 +34,42 @@ Selecionamos el paquete de acuerdo a nuestra arquitectura ne mi caso 64bits:
 y voy a guardarlo en mi carpeta Descargas (o donde prefieras), abrimos la terminal y nos dirigimos a la carpeta donde esta nuestro 
 tar:
   
-
-  ``` sh
-  $ cd Descargas
-  ```
+``` sh
+$ cd Descargas
+```
 
 ahora ejecutamos el comando tar, pasando la opcion -C [/ruta/a/donde/descomprimir] -xzf [nuestro archivo tar]
 
-  ``` sh
-  $ tar -C /usr/local -xzf go1.6.linux-amd64.tar.gz 
-  ```
+``` sh
+$ tar -C /usr/local -xzf go1.6.linux-amd64.tar.gz 
+```
   
 con esto ya tendremos Go en nuestro GNU/Linux, solo falta agregar go a nuestro PATH para ejecutarlo desde cualquier parte,
 para eso debemos hacer lo siguiente:
   
-  ````sh
-  $ cd ~  # para saltar al Home de nuestro usuario
-  $ nano .bashrc # en mi caso uso Fedora, pero en la mini tengo LinuxMint así que usaria .profile
-  ```
+``` sh
+$ cd ~  # para saltar al Home de nuestro usuario
+$ nano .bashrc # en mi caso uso Fedora, pero en la mini tengo LinuxMint así que usaria .profile
+```
   
   nuestro editor nano abrira nuestro archivo y justoa el final agregamos la siguiente linea:
   
-  ``` sh
-  export PATH=$PATH:/usr/local/go/bin
-  ```
+``` sh
+export PATH=$PATH:/usr/local/go/bin
+```
   
   Guardamos con las teclas "Control + O" y salimos con "Control + X", para aplicar estos cambios sin tener que salir de la terminal
   ejecutamos
   
-  ``` sh
-  source .bashrc
-  ```
+``` sh
+source .bashrc
+```
   
   y ya tendriamos go accesible en nuestra termina desde cualqueir directorio con el comando
   
-  ``` sh
-  $ go
-  ```
+``` sh
+$ go
+```
   
   ![cowboy-color](/images/cowboy-color.png "cowboy-color")
 
