@@ -1,3 +1,8 @@
+---
+layout: post
+title: Instalando WordPress en Linux (Parte I - LAMPP)
+---
+
 En esta nueva entrada voy a compartirles mi experiencia de como instalar WordPress de forma local usando LAMPP.  
 
 # ¿Que es WordPress?
